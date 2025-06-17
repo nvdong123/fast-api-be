@@ -1,0 +1,18 @@
+<div>
+    <h1>{{ project_name }} - New Account</h1>
+    <p>Hi {{ username }},</p>
+    <p>
+        Your account has been created successfully. Here are your login credentials:
+    </p>
+    <p>
+        Email: {{ email }}<br>
+        Password: {{ password }}
+    </p>
+    <p>
+        You can login at: <a href="{{ login_url }}">{{ login_url }}</a>
+    </p>
+    <p>
+        Please change your password after first login.
+    </p>
+    <p>Thanks,<br>{{ project_name }} team</p>
+</div>
